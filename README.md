@@ -241,20 +241,6 @@ This project uses **realistic seeded/simulated pricing data** rather than live-s
 
 ---
 
-## 🎬 Recording Your Own Longer Demo Video
-
-The included `demo-video.mp4` is a short, silent walkthrough. For a resume/portfolio submission, record your own 60–90s narrated version once all three services are running:
-
-1. **(0:00–0:10)** Show the product grid loading — "This is PriceScout, a price comparison platform that pulls prices from multiple retailers."
-2. **(0:10–0:25)** Search for a product, click into it — show the price comparison table with the best deal highlighted.
-3. **(0:25–0:45)** Point out the price history chart and the AI prediction panel — "This prediction comes from a Python microservice doing a live regression over price history."
-4. **(0:45–1:00)** Set a price alert, then briefly show `curl` hitting `/api/ai/match` in a terminal to demonstrate the product-matching AI directly.
-5. **(1:00–1:15)** Close with the architecture diagram from this README — "Java backend, Python AI service, React frontend — three independently runnable services."
-
-Record with **Loom**, **OBS Studio**, or your OS's built-in screen recorder, upload to YouTube (unlisted) or Loom, and paste the link at the top of this README alongside `demo-video.mp4`.
-
----
-
 ## 📄 License
 
 MIT — see [LICENSE](LICENSE).
