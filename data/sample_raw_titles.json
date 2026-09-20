@@ -1,0 +1,18 @@
+{
+  "_comment": "Sample raw product titles as they might appear scraped from different platforms. Feed these to POST /match to see the fuzzy-matching AI cluster them into real products.",
+  "raw_titles": [
+    "Apple iPhone 15 128GB Blue",
+    "iPhone15 128 GB (Blue) - Apple",
+    "Apple iPhone 15, Blue, 128GB Storage - Unlocked",
+    "Samsung Galaxy S24 256GB Phantom Black",
+    "Samsung Galaxy S24 5G 256 GB Black - Genuine",
+    "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+    "Sony WH1000XM5 Bluetooth Headphones with Noise Cancellation",
+    "Dell XPS 13 Laptop - Intel Core i7, 16GB RAM, 512GB SSD",
+    "Dell XPS13 (i7, 16GB, 512GB SSD) Laptop - New",
+    "Apple Watch Series 9 45mm GPS",
+    "Apple Watch Series 9 (GPS, 45mm) - Official",
+    "Nintendo Switch OLED Model 64GB",
+    "Nintendo Switch (OLED Model) - 64 GB Console"
+  ]
+}
