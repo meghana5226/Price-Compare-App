@@ -1,4 +1,4 @@
-# 🛒 PriceScout — AI-Powered Cross-Platform Price Comparison
+# PriceLens — AI-Powered Cross-Platform Price Comparison
 
 > Find the same product across multiple retailers, see which one is genuinely cheapest after shipping, track price history, and get an AI-generated buy/wait recommendation — all in one place.
 
@@ -30,7 +30,7 @@ A full-stack, microservices-based e-commerce price comparison platform built to 
 
 ## 💡 About This Project
 
-Shopping for electronics almost always means the same product is listed at different prices — plus different shipping costs — across Amazon, Flipkart, eBay, and other platforms, often under slightly different product titles. **PriceScout** solves this by:
+Shopping for electronics almost always means the same product is listed at different prices — plus different shipping costs — across Amazon, Flipkart, eBay, and other platforms, often under slightly different product titles. **PriceLens** solves this by:
 
 1. **Aggregating** prices for the same product across multiple platforms
 2. **Normalizing the true cost** (price + shipping) so "best price" reflects what you'd actually pay
@@ -225,13 +225,13 @@ curl -X POST http://localhost:5001/match \
 
 ---
 
-## ⚠️ A Note on Data Sources
+## A Note on Data Sources
 
 This project uses **realistic seeded/simulated pricing data** rather than live-scraping real e-commerce sites. That's intentional: scraping Amazon, Flipkart, etc. directly violates their Terms of Service and their anti-bot systems actively block it, which would make this project fragile and not a great long-term portfolio piece. The architecture (`AiServiceClient`, `PriceEntry` model, matching pipeline) is built exactly as it would be with real data — swapping in real price feeds means adding a data-ingestion job that calls official APIs (eBay's Developer API, Amazon Product Advertising API, etc.) and writes into the same `price_entries` table. That's flagged as a "Future Work" item below.
 
 ---
 
-## 🔭 Future Work
+##  Future Work
 
 - Real data ingestion via official retailer APIs (eBay, Amazon PA-API) instead of seeded data
 - Scheduled price refresh job (`@Scheduled` in Spring) + actual email delivery for alerts (e.g. via SendGrid)
