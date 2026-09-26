@@ -1,4 +1,4 @@
-# PriceLens — AI-Powered Cross-Platform Price Comparison
+# PriceScout — AI-Powered Cross-Platform Price Comparison
 
 > Find the same product across multiple retailers, see which one is genuinely cheapest after shipping, track price history, and get an AI-generated buy/wait recommendation — all in one place.
 
